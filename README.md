@@ -1,4 +1,4 @@
-# checkerPY
+# checkerPY - Easy File Change Detection
 
 `checkerPY` is a Python program designed to monitor changes in files within a directory by computing and comparing their SHA256 hashes. It can detect modifications, additions, and deletions of files. This is useful for tracking changes in a directory over time.
 
