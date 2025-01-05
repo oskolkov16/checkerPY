@@ -34,7 +34,7 @@ def get_folder_hashes(folder_path):
 def save_hashes_to_file(hashes, file_path):
     """Saves the dictionary of hashes to a JSON file."""
     with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(hashes, f, indent=4)
+        json.dump(hashes, f, indent=4, ensure_ascii=False)
 
 def load_hashes_from_file(file_path):
     """Loads the dictionary of hashes from a JSON file, if it exists."""
